@@ -57,7 +57,7 @@ def run():
     for i, img_name in enumerate(example_images):
         with cols[i % 4]:
             img_path = os.path.join(example_path, img_name)
-            st.image(img_path, width=100, caption=f'Example {i+1}')
+            st.image(img_path, width=150, caption=f'Example {i+1}')
             if st.button(f"Example {i+1}", key=f"example_{i}"):
                 st.session_state.selected_image_path = img_path
                 st.session_state.uploaded_image = None  # Reset uploaded image
