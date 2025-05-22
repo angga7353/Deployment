@@ -49,7 +49,7 @@ def main():
         #     st.rerun()
 
         # Main Content - Home
-        st.title("Welcome to AI See You Tools")
+        st.title("Welcome to AISeeYou Tools")
         st.write("""
         AISeeYou merupakan sebuah aplikasi yang berfungsi untuk mendeteksi suatu benda tajam yang berada
         di dalam tas atau koper yang dipindai menggunakan X-Ray saat memasuki ke dalam bandara,
@@ -69,10 +69,11 @@ def main():
         Dataset ini terdiri dari:
         1. Gambar X-Ray berformat .png,
         2. Kategori Objek Berbahaya (Class ID):
-            2.1. Class 0: Scissor.
-            2.2. Class 1: Unidentified Object.
-            2.3. Class 2: Knife.
-            2.4. Class 3: Cutter.
+                
+            2.1. Class 0: Scissor.\n
+            2.2. Class 1: Unidentified Object.\n
+            2.3. Class 2: Knife.\n
+            2.4. Class 3: Cutter.\n
             2.5. Class 4: Swiss Army Knife.
 
         Dengan adanya kelas ini, user dapat mengenali pola dan bentuk objek berbahaya secara otomatis dalam visualisasi X-Ray.

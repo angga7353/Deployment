@@ -39,7 +39,7 @@ def show_prediction(img):
                 st.write("No objects detected.")
 
 def run():
-    st.title("AI SEE YOU")
+    st.title("🔍 Prediction")
 
     # Example images
     example_images = ['test1.jpg', 'test2.jpg', 'test3.jpg', 'test4.jpg',
@@ -63,7 +63,7 @@ def run():
                 st.session_state.uploaded_image = None  # Reset uploaded image
 
     # File uploader
-    file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+    file = st.file_uploader("Or Upload an image", type=["jpg", "jpeg", "png"])
     if file is not None:
         st.session_state.uploaded_image = file
         st.session_state.selected_image_path = None  # Reset example image
