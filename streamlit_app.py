@@ -51,9 +51,9 @@ def main():
         # Main Content - Home
         st.title("Welcome to AI See You Tools")
         st.write("""
-        This application provides functionalities for Exploratory Data Analysis and 
-        Prediction of waste types. Use the navigation pane on the left to 
-        select the module you wish to utilize.
+        AISeeYou merupakan sebuah aplikasi yang berfungsi untuk mendeteksi suatu benda tajam yang berada
+        di dalam tas atau koper yang dipindai menggunakan X-Ray saat memasuki ke dalam bandara,
+        terminal, dan gedung. Teknologi ini menjadi alat utama untuk memeriksa barang bawaannya.
         """)
 
         # Logo di tengah halaman
