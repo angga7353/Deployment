@@ -66,9 +66,16 @@ def main():
         # Dataset Info
         st.write("#### 📊 Dataset")
         st.info("""
-        The dataset used is the RealWaste dataset, containing images of waste items across 9 major material types, 
-        collected within an authentic landfill environment. This dataset provides a realistic representation of 
-        waste items, allowing our model to learn from real-world examples.
+        Dataset ini terdiri dari:
+        1. Gambar X-Ray berformat .png,
+        2. Kategori Objek Berbahaya (Class ID):
+            2.1. Class 0: Scissor.
+            2.2. Class 1: Unidentified Object.
+            2.3. Class 2: Knife.
+            2.4. Class 3: Cutter.
+            2.5. Class 4: Swiss Army Knife.
+
+        Dengan adanya kelas ini, user dapat mengenali pola dan bentuk objek berbahaya secara otomatis dalam visualisasi X-Ray.
         """)
 
         # Problem Statement
