@@ -83,4 +83,4 @@ def run():
         show_prediction(image)
 
 if __name__ == "__main__":
-    app()
+    run()
